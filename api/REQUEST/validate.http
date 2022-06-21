@@ -1,0 +1,9 @@
+@host = localhost:5000
+
+POST http://{{host}}/auth/validate
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoidGVzdEB0ZXN0Mi5mciIsInBhc3N3b3JkIjoidGVzdDIiLCJwc2V1ZG8iOiJ0ZXN0IiwiaWF0IjoxNjU1Mjg0Mzk1LCJleHAiOjE2NTUzNzA3OTV9.avw5EZr06oOGAjEb2jR3NCD2VobqNZi1aixIDkQMEy0"
+
+}

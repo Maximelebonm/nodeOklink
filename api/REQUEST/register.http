@@ -1,0 +1,10 @@
+@host = localhost:8000
+
+POST http://{{host}}/auth/register
+Content-Type: application/json
+
+{
+    "password": "test2",
+    "mail": "test@test2.fr",
+    "pseudo" : "test"
+}
